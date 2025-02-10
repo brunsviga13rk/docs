@@ -10,7 +10,7 @@ simulation.
 
 The most recent release of the simulation is hosted with [GitHub Pages](https://brunsviga13rk.github.io/emulator).
 
-<!-- <iframe style="width: 100%; height: 16rem" src="https://brunsviga13rk.github.io/emulator"/> -->
+<iframe style="width: 100%; height: 24rem" src="https://brunsviga13rk.github.io/emulator"/>
 
 ## Requirements
 
