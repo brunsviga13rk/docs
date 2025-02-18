@@ -66,6 +66,18 @@ in the emulator repository for the calculation.
 
 ## Multiplication
 
+The machine is not capable of performing multiplication directly. Luckily
+any multiplication can be split into a sequence of sums. Take the following
+example:
+$$
+  7 * 4= 28
+$$
+This simple equation can be rewritten by adding the number $7$ by a total of $4$
+times:
+$$
+  7 + 7 + 7 + 7 = 28
+$$
+
 ## Available functions
 
 ## Where do magic numbers come from?

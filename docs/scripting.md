@@ -10,7 +10,18 @@ architecture through abstraction.
 
 ## Lua basics
 
+Lua is a simple programming language with an intuitive and easy syntax. It is
+primarily designed to run on embedded systems which makes lightweight by
+nature. It integrates nicely with C and can thus be embedded rather nicely
+into web browser through the usage of Web assembly. The language is dynamically
+typed and is reasonably fast in execution. This chapter will give a short
+introduction into the language to get you started with scripting the emulator.
+
 ## Limitations
+
+Due to the limited interoperability between Typescript and Lua we do not recommend
+to use Lua built-in await async with custom functions. For more information see
+the [Wasmoon documentation](https://github.com/ceifa/wasmoon).
 
 ## Brunsviga 13 RK API
 
@@ -182,9 +193,8 @@ guarantees a functional state.
 
 However, the raw typescript API can still be accessed from within Lua.
 The Module can be accessed by calling the according get function which
-is defined for the API version currently used in the build, which as of now
-is v1.4.1:
+is defined for the API version:
 
 ```lua
-local raw_ts_api = ts_api_get_1_4_1()
+local raw_ts_api = ts_api_get_0_0_2()
 ```
