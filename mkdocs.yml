@@ -1,11 +1,36 @@
 ---
-site_name: My Docs
+site_name: Brunsviga 13 RK Simulation
 site_url: https://brunsviga13rk.github.io/docs
 repo_url: https://github.com/brunsviga13rk/emulator
 theme:
   name: material
+  logo: assets/brunsviga_icon.svg
+  favicon: assets/brunsviga_icon.svg
   features:
     - content.code.copy
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+  homepage: https://github.com/brunsviga13rk
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/brunsviga13rk
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:s222468@student.dhbw-mannheim.de
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -17,3 +42,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+copyright: Copyright &copy; 2024 - 2025 Sven Vogel
